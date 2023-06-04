@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Tema2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Tema2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Tema2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Bathroom.cpp" />
+		<Unit filename="Bathroom.h" />
+		<Unit filename="Bedroom.cpp" />
+		<Unit filename="Bedroom.h" />
+		<Unit filename="CreateRoom_bathroom.txt" />
+		<Unit filename="CreateRoom_bedroom.txt" />
+		<Unit filename="CreateRoom_kitchen.txt" />
+		<Unit filename="CreateRoom_living.txt" />
+		<Unit filename="House.cpp" />
+		<Unit filename="House.h" />
+		<Unit filename="Humidity.cpp" />
+		<Unit filename="Humidity.h" />
+		<Unit filename="IRoom.cpp" />
+		<Unit filename="IRoom.h" />
+		<Unit filename="ISensor.cpp" />
+		<Unit filename="ISensor.h" />
+		<Unit filename="Kitchen.cpp" />
+		<Unit filename="Kitchen.h" />
+		<Unit filename="Living.cpp" />
+		<Unit filename="Living.h" />
+		<Unit filename="Pressure.cpp" />
+		<Unit filename="Pressure.h" />
+		<Unit filename="Temperature.cpp" />
+		<Unit filename="Temperature.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
